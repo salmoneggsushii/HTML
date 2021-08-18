@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>Table and Css</title>
+    <h1>Simple Form</h1>
+    <style>
+        h1
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table border="5" width="80%" align="center">
+        <tr>
+            <td bgcolor="salmon">Name:                   </td>
+            <td><input type="text" id="x" name="Name"></td>
+        </tr>
+        <tr>
+            <td bgcolor="cadetblue">Age:                 </td>
+            <td><input type="text" id="y" name="age"></td>
+        </tr>
+        <tr>
+            <td bgcolor="maroon">Gender:                     </td>
+            <td>
+                <input type="radio" id="z" name="gender" value="Male">
+                <label for="z">Male</label><br>
+                <input type="radio" id="a" name="gender" value="Female">
+                <label for="a">Female</label><br>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="olive">Letter Adress:                 </td>
+            <td><input type="text" id="c" name="letter adress"></td>
+        </tr>
+        <tr>
+            <td bgcolor="aqua">Occupation:                     </td>
+            <td><input type="text" id="f" name="Occupation"></td>
+        </tr>
+        <tr>
+            <td bgcolor="teal">Date:                     </td>
+            <td><label for="t"></label><input type="date" id="t" name="date" value="2021-08-18" min="2021-01-01" max="2021-12-31"></td>
+        </tr>
+        <tr>
+            <td bgcolor="#5ABB93">Phone's brand:                 </td>
+            <td><input type="radio" id="o" name="phone's brand" value="Iphone">
+            <label for="o">Iphone</label><br>
+            <input type="radio" id="p" name="phone's brand" value="Samsung">
+            <label for="p">Samsung</label><br>
+            <input type="radio" id="h" name="phone's brand" value="Huawei">
+            <label for="h">Huawei</label><br>
+            <input type="radio" id="j" name="phone's brand" value="Others">
+            <label for="j">Others</label><br>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET"></td>
+        </tr>
+    </table>
+</body>
+</html>
